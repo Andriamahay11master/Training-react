@@ -1,12 +1,11 @@
 import * as React from 'react';
-import './header.scss';
 
 export default function Header() {
   return (
     <header>
       <div className="headerLeft">
         <a href="">
-          <img src="./assets/images/Logo.svg" alt="Logo image" />
+          <img src="images/Logo.svg" alt="Logo image" />
         </a>
       </div>
       <div className="headerRight">
