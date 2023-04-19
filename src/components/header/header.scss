@@ -1,0 +1,21 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  .headerLeft {
+  }
+  .headerRight {
+    ul {
+      display: flex;
+      list-style: none;
+      a {
+        font-size: 16px;
+        color: $blue;
+        text-decoration: none;
+        @include max(768px) {
+          color: red;
+        }
+      }
+    }
+  }
+}
