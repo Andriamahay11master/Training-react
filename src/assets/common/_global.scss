@@ -8,3 +8,11 @@ body {
     display: block;
   }
 }
+
+.tag {
+  background: $green;
+  padding: 4px 14px;
+  border-radius: 120px;
+  font-size: 13px;
+  color: $blue;
+}
