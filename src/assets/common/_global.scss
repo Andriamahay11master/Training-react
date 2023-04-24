@@ -1,3 +1,10 @@
 body {
   font-family: $open, sans-serif;
 }
+
+.d-none-desk {
+  display: none;
+  @include max(992px) {
+    display: block;
+  }
+}

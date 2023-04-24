@@ -1,0 +1,16 @@
+footer{
+  display: flex;
+  img{
+    width: 156px;
+    margin-bottom: 40px;;
+  }
+  .footerText{
+    font-size: 16px;
+    font-weight: 400;
+    color: $blue;
+    margin-bottom: 64px;
+    &.rightsReserved{
+      margin-bottom: 0;
+    }
+  }
+}
