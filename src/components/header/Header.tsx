@@ -20,7 +20,7 @@ export default function Header() {
             <a href="">About</a>
           </li>
           <li>
-            <a href="" className="btn btnlog">
+            <a href="" className="btn btnLog">
               Log in
             </a>
           </li>

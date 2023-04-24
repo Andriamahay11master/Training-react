@@ -2,18 +2,32 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 56px 100px;
+  padding-bottom: 45px;
+  @include max(992px) {
+    padding: 25px;
+  }
   .headerLeft {
+    img {
+      width: 162px;
+    }
   }
   .headerRight {
     ul {
       display: flex;
       list-style: none;
+      @include max(992px) {
+        flex-direction: column;
+      }
       a {
         font-size: 16px;
+        font-weight: 600;
         color: $blue;
         text-decoration: none;
-        @include max(768px) {
-          color: red;
+        margin-right: 40px;
+        @include max(992px) {
+          margin-right: 0;
+          margin-bottom: 10px;
         }
       }
     }
