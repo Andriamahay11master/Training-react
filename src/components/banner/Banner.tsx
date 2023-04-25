@@ -23,7 +23,7 @@ export default function Banner() {
           </h2>
           <div className="bannerInfo">
             <figure>
-              <img src="images/img-user.png" alt="Image user" />
+              <img src="" alt="Image user" />
             </figure>
             <p className="bannerUserName">Chandler Bing</p>
           </div>
