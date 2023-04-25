@@ -10,6 +10,9 @@ footer {
   @include max(1200px) {
     padding: 50px;
   }
+  @include max(992px) {
+    grid-template-columns: 1fr;
+  }
   img {
     width: 156px;
     margin-bottom: 40px;
@@ -50,6 +53,13 @@ footer {
     }
     .tag {
       margin-left: 5px;
+    }
+  }
+  .footer-left {
+    .rightsReserved {
+      @include max(992px) {
+        display: none;
+      }
     }
   }
 }

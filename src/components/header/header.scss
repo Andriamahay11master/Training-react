@@ -4,7 +4,7 @@ header {
   justify-content: space-between;
   padding: 56px 100px;
   padding-bottom: 45px;
-  @include max(1440px) {
+  @include max(1200px) {
     padding: 25px 50px;
   }
   @include max(992px) {
