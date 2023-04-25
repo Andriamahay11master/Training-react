@@ -25,4 +25,20 @@
       line-height: 52px;
     }
   }
+
+  .listArticleContent {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 80px;
+  }
+
+  .listBLockMore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 96px;
+    .btnLog {
+    }
+  }
 }

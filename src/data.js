@@ -39,4 +39,43 @@ export const datas = [
       name: 'Monica Geller',
     },
   },
+  {
+    id: 4,
+    src: 'https://c4.wallpaperflare.com/wallpaper/362/276/920/nature-4k-pc-full-hd-wallpaper-preview.jpg',
+    srcAlt: 'Image article 4',
+    cat: 'Category',
+    dateA: 'November 22, 2021',
+    desc: 'Pitch termsheet backing validation focus release.',
+    author: {
+      src: 'https://zupimages.net/up/23/17/zfk4.png',
+      srcAlt: 'Chandler Bing image',
+      name: 'Chandler Bing',
+    },
+  },
+  {
+    id: 5,
+    src: 'https://images.unsplash.com/photo-1553615738-d8e0829f1d61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80',
+    srcAlt: 'Image article 5',
+    cat: 'Category',
+    dateA: 'November 22, 2021',
+    desc: 'Seed round direct mailing non-disclosure agreement graphical user interface rockstar.',
+    author: {
+      src: 'https://zupimages.net/up/23/17/zfk4.png',
+      srcAlt: 'Rachel Green image',
+      name: 'Rachel Green',
+    },
+  },
+  {
+    id: 6,
+    src: 'https://wallpapers.com/images/hd/hd-vacation-house-in-the-beach-j4jasqgcc5ismew8.jpg',
+    srcAlt: 'Image article 6',
+    cat: 'Category',
+    dateA: 'November 22, 2021',
+    desc: 'Beta prototype sales iPad gen-z marketing network effects value proposition',
+    author: {
+      src: 'https://zupimages.net/up/23/17/zfk4.png',
+      srcAlt: 'Monica Geller image',
+      name: 'Monica Geller',
+    },
+  },
 ];

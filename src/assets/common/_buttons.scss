@@ -6,6 +6,7 @@
     border-radius: 24px;
     border: 2px solid $blue;
     font-weight: 700;
+    cursor: pointer;
     @include max(992px) {
       padding: 5px 30px;
     }

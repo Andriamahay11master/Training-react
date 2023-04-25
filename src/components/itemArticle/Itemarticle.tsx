@@ -8,8 +8,8 @@ export default function Itemarticle({ src, srcAlt, cat, dateA, desc, author }) {
       </div>
       <div className="itemBottom">
         <p className="itemDate">
-          <span>{dateA}</span>
-          {cat}
+          <span>{cat}</span>
+          {dateA}
         </p>
         <p className="itemDesc">{desc}</p>
         <div className="itemAuthor">
