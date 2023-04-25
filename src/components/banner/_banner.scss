@@ -7,11 +7,15 @@
   }
   @include max(475px) {
     margin: 0 20px;
+    padding-bottom: 30px;
   }
   .bannerTop {
     text-align: center;
     padding-top: 27px;
     padding-bottom: 67px;
+    @include max(992px) {
+      padding-bottom: 40px;
+    }
     .bannerCat {
       font-size: 20px;
       line-height: 32px;
@@ -43,6 +47,9 @@
     .bannerBottomCol {
       .bannerImage {
         border-radius: 24px;
+        @include max(992px) {
+          margin-bottom: 40px;
+        }
         img {
           width: 100%;
         }
