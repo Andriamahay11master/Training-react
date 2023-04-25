@@ -20,9 +20,11 @@ export default function Listarticle() {
             />
           ))}
         </div>
-        <div className="listBLockMore">
-          <button className="btn btnLog">Load more</button>
-        </div>
+        {datas.length > 3 && (
+          <div className="listBLockMore">
+            <button className="btn btnLog">Load more</button>
+          </div>
+        )}
       </div>
     </div>
   );
