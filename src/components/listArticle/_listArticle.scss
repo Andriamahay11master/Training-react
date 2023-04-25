@@ -1,0 +1,28 @@
+.listBlock {
+  padding: 96px 100px 124px 100px;
+  @include max(1200px) {
+    padding: 50px;
+  }
+  @include max(575px) {
+    padding: 50px 20px;
+  }
+  .listBlockBody {
+    padding: 0 100px;
+    @include max(1200px) {
+      padding: 0 50px;
+    }
+    @include max(575px) {
+      padding: 0 20px;
+    }
+  }
+  .listBlockTitle {
+    font-family: $manrope;
+    font-size: 48px;
+    line-height: 72px;
+    margin-bottom: 40px;
+    @include max(575px) {
+      font-size: 35px;
+      line-height: 52px;
+    }
+  }
+}
