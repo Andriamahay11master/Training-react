@@ -10,8 +10,11 @@ export default function Banner() {
 
       <div className="bannerBottom">
         <div className="bannerBottomCol">
-          <figure>
-            <img src="images/img-pitch.jpg" alt="Image banner" />
+          <figure className="bannerImage">
+            <img
+              src="https://zupimages.net/up/23/17/g2mn.jpg"
+              alt="Image banner"
+            />
           </figure>
         </div>
         <div className="bannerBottomCol">
@@ -22,8 +25,11 @@ export default function Banner() {
             Pitch termsheet backing validation focus release.
           </h2>
           <div className="bannerInfo">
-            <figure>
-              <img src="" alt="Image user" />
+            <figure className="bannerImageUser">
+              <img
+                src="https://zupimages.net/up/23/17/zfk4.png"
+                alt="Image user"
+              />
             </figure>
             <p className="bannerUserName">Chandler Bing</p>
           </div>
