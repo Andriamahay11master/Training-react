@@ -2,7 +2,10 @@ import * as React from 'react';
 import Itemarticle from '../itemArticle/Itemarticle';
 import { datas } from '../../data.js';
 
-export default function Listarticle() {
+export default function Listarticle({ handleClick }) {
+  /*function handleClick() {
+    alert('Load more');
+  }*/
   return (
     <div className="listBlock">
       <div className="listBlockBody">
@@ -21,8 +24,13 @@ export default function Listarticle() {
           ))}
         </div>
         {datas.length > 3 && (
-          <div className="listBLockMore">
-            <button className="btn btnLog">Load more</button>
+          <div
+            className="listBLockMore"
+            onClick={() => alert('parent clicked')}
+          >
+            <button className="btn btnLog" onClick={handleClick}>
+              Load more
+            </button>
           </div>
         )}
       </div>
