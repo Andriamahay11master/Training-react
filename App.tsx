@@ -4,11 +4,14 @@ import Footer from './src/components/footer/Footer';
 import Banner from './src/components/banner/Banner';
 import Listarticle from './src/components/listArticle/Listarticle';
 import './App.scss';
+import { useState } from 'react';
 
 export default function App() {
+  const [index, setIndex] = useState(0);
   function loadMore(e) {
     e.stopPropagation();
-    alert('load more');
+    setIndex(index + 1);
+    alert('load more' + index);
   }
   return (
     <div>
